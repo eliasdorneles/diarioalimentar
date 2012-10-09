@@ -1,4 +1,8 @@
 Diarioalimentaro::Application.routes.draw do
+  resources :meals
+
+  resources :meal_types
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>User:</b>
+  <%= @meal.user %>
+</p>
+
+<p>
+  <b>Meal type:</b>
+  <%= @meal.meal_type.name %>
+</p>
+
+<p>
+  <b>Rating:</b>
+  <%= @meal.rating %>
+</p>
+
+<p>
+  <b>Comments:</b>
+  <%= @meal.comments %>
+</p>
+
+
+<%= link_to 'Edit', edit_meal_path(@meal) %> |
+<%= link_to 'Back', meals_path %>
